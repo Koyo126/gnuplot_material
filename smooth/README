@@ -1,3 +1,5 @@
+# smooth オプションについて
+
 gnuplot includes a few general-purpose routines for 
 interpolation and approximation of data; 
 these are grouped under the smooth option. More 

@@ -1,3 +1,5 @@
+# 概要
+
 gnuplot スクリプトの例。
 
 G N U P L O T

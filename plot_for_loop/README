@@ -1,3 +1,5 @@
+# plot for
+
 gnuplot のループの一つである plot for ループの例。
 DataGen.cpp で生成したデータファイル 
  * Linear_function.dat
