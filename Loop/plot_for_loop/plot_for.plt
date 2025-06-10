@@ -14,6 +14,7 @@ do for [i=1:Nmax] { PlotTitle[i] = "No" }  ### No で初期化
 #######################################################
 
 LW = 3  ### plot の線の太さ
+Inc = 1  ### plot for のループ increment
 
 ### plot するファイルの指定
 PlotFile[1] = "./Linear_function.dat"
@@ -46,4 +47,4 @@ set ytics 250
 
 set key font "Times, 16"  ### 凡例
 
-p for [i=1:PlotMax] PlotFile[i] u 1:2 w l lw LW t PlotTitle[i]
+p for [i=1:PlotMax:Inc] PlotFile[i] u 1:2 w l lw LW t PlotTitle[i]
